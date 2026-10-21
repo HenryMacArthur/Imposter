@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imposter</title>
+    <script src="main.js" type="module" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="beginningStuff" style="display: unset">
+        <!--Important: we have js that changes the style of the beginningStuff div, so put all css in the style="" tag, NOT a stylesheet-->
+        <div class="peopleplayinginput">
+            <label>People playing:</label>
+            <input type="text" value="4" id="pplplaying">
+        </div>
+    
+        <button class="startbtn" id="startbtn">Start</button>
+
+    </div>
+    <div id="notBeginningStuff" style="display: none">
+        <span id="question">Question will go here.</span>
+        <button id="nextPerson" style="display:unset">Next Person</button>
+        <button id="nextRound" style="display:none">Next Round</button>
+    </div>
+
+</body>
+</html>

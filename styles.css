@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: none;
+    overflow: hidden;
+}
+
+button {
+    font-size: 3rem;
+    border-radius: 20px;
+    height:100px;
+    width: 75%;
+    margin-top: 50vh;
+    background-color: aqua;
+}
+
+input {
+    height: 100px;
+    border-radius: 12px;
+    font-size: 3rem;
+    text-align: center;
+    width: 75%;
+}
+
+
+/* AHHHHH!!!! IDs being used for CSS!!! SO SCARY!!!!!!!!!! */
+#notBeginningStuff {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
